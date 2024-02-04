@@ -1,0 +1,22 @@
+---
+import Socials from "@components/Socials.astro";
+
+import { basics } from '@cv'
+---
+
+<section class="grid md:grid-cols-2 grid-cols-1">
+    <div>
+        <img
+            src="https://eduardorl.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.2d4d367d.png&w=1920&q=30"
+            alt="Foto alex"
+            class="w-44 h-44 rounded-full drop-shadow-2xl"
+        >
+    </div>
+    
+
+    <div>
+        <h1>Hi I'm {basics.name}</h1>
+        <h3>{basics.label}</h3>
+        <Socials></Socials>
+    </div>
+</section>

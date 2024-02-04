@@ -1,11 +1,26 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import About from '@components/About.astro';
+import Header from '@components/Header.astro';
+import ListExperience from '@components/ListExperience.astro';
+import ListProject from '@components/ListProject.astro';
+import Hero from '@components/Hero.astro';
+import Skills from '@components/Skills.astro';
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<p class="text-white">Hola mundo</p>
-	</main>
+<Layout title="Alex Portfolio">
+	<div class="mx-auto max-w-3xl sticky top-0 z-10">
+		<Header></Header>
+	</div>
+	<div class="mx-auto max-w-3xl px-5 mb-5 flex flex-col gap-10">
+		<main class="flex flex-col gap-16">
+			<Hero></Hero>
+			<About></About>
+			<ListExperience></ListExperience>
+			<ListProject></ListProject>
+			<Skills></Skills>
+		</main>
+	</div>
 </Layout>
 
 <style>
