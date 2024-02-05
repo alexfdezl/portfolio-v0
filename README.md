@@ -1,6 +1,6 @@
 # Portfolio v0
 
-This is the first version of my portfolio, using Astro and Tailwind.
+This is the first version of my portfolio, using Astro and Tailwind. I hope you like it :)
 
 ## 🧞 Commands
 

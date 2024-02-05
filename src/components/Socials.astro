@@ -1,0 +1,51 @@
+---
+import LinkedIn from "@icons/LinkedIn.astro";
+import Mail from "@icons/Mail.astro";
+import GitHub from "@icons/GitHub.astro";
+import Download from "@icons/Download.astro";
+
+import { basics } from "@cv";
+
+const { email, linkedin, github, name } = basics;
+---
+
+<div class="flex justify-start gap-5 my-2">
+    <a
+        href={linkedin.url}
+        title={`Visitar LinkedIn de ${linkedin.username}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="transition-transform duration-300 hover:scale-125"
+    >
+        <LinkedIn />
+    </a>
+    <a
+        href={`mailto:${email}`}
+        title={`Enviar un mail a ${name}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="transition-transform duration-300 hover:scale-125"
+    >
+        <Mail />
+    </a>
+    <a
+        href={github.url}
+        title={`Visitar GitHub de ${github.username}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        class="transition-transform duration-300 hover:scale-125"
+    >
+        <GitHub />
+    </a>
+    <a
+        href="public/CV-alex-es.pdf"
+        title="Descargar curriculum"
+        download="CV-alex-es.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="transition-transform duration-300 hover:scale-125"
+    >
+        <Download />      
+    </a>
+      
+</div>
