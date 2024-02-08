@@ -5,7 +5,7 @@ import { basics } from "@cv";
 ---
 
 <section
-    class="grid grid-cols-1 justify-items-center md:flex md:justify-between gap-5 md:items-center py-3"
+    class="grid grid-cols-1 justify-items-center md:flex md:justify-between gap-5 gap-y-10 md:items-center py-3"
 >
     <img
         src={basics.image}
@@ -13,7 +13,7 @@ import { basics } from "@cv";
         class="w-44 h-44 rounded-full drop-shadow-2xl"
     />
 
-    <div>
+    <div class="">
         <h1 class="md:text-3xl text-2xl mb-2">Hi I'm {basics.name}</h1>
         <h3 class="md:text-lg text-sm mb-4">{basics.label}</h3>
         <Socials />

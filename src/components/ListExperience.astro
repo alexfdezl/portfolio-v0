@@ -1,5 +1,5 @@
 ---
-import { work } from '@cv'
+import { work as works } from '@cv'
 import Experience from './Experience.astro'
 ---
 <section>
@@ -19,11 +19,11 @@ import Experience from './Experience.astro'
         <h2 class="text-2xl">Experience</h2>
     </div>
 
-    <div>
+    <div class="mt-4">
         {
-            work.map(({position, startDate, endDate, summary, name}) => {
+            works.map((work) => {
                 return (
-                    <Experience {position} {startDate} {endDate} {summary} {name}/>
+                    <Experience {...work}/>
                 )
             })
         }
