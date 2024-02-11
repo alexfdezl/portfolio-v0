@@ -67,22 +67,25 @@
         "title": "svgl",
         "description": "Historia interactiva con retos de programación para viajar a Marte",
         "url": "https://mars.codes",
-        "image": "public/projects/svgl.webp",
-        "github": ""
+        "image": "/projects/svgl.webp",
+        "github": "",
+        "techs": ["Angular", "Tailwind CSS"]
       },
       {
         "title": "svgl",
         "description": "Historia interactiva con retos de programación para viajar a Marte",
         "url": "https://mars.codes",
-        "image": "public/projects/svgl.webp",
-        "github": ""
+        "image": "/projects/svgl.webp",
+        "github": "",
+        "techs": ["Angular"]
       },
       {
         "title": "svgl",
         "description": "Historia interactiva con retos de programación para viajar a Marte",
         "url": "https://mars.codes",
-        "image": "public/projects/svgl.webp",
-        "github": ""
+        "image": "/projects/svgl.webp",
+        "github": "",
+        "techs": ["Angular"]
       }
     ]
   }
