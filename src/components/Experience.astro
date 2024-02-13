@@ -3,20 +3,24 @@ export interface Props {
     position: string;
     startDate: string;
     endDate: string | null;
-    summary: string;
+    summary1: string;
+    summary2: string;
+    summary3: string;
     name: string;
 }
-const {position, startDate, endDate, summary, name} = Astro.props;
+const {position, startDate, endDate, summary1, summary2, summary3, name} = Astro.props;
 ---
 <article>
-    <header class="sm:flex sm:justify-between items-center mt-4">
+    <header class="sm:flex sm:justify-between items-center mt-6">
         <div>
-            <h3 class="text-lg">{position}</h3>
+            <h3 class="text-lg font-bold">{position}</h3>
             <h4 class="italic darK:opacity-60 opacity-80">{name}</h4>
         </div>
         <div>
             <span>{startDate} - {endDate ?? "Act"}</span>
         </div>
     </header>
-    <p class="mt-3 text-pretty">{summary}</p>
+    <p class="mt-3 text-pretty">&bull; {summary1}</p>
+    <p class="mt-3 text-pretty">&bull; {summary2}</p>
+    <p class="mt-3 text-pretty">&bull; {summary3}</p>
 </article>

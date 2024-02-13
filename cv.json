@@ -14,7 +14,9 @@
         "username": "alexfdezl",
         "url": "https://github.com/alexfdezl"
       },
-      "summary": "Specialized in Software Engineering, with passion for software development and in constant search for self-improvement and expansion of knowledge.",
+      "summary1": "My name is Àlex, I am 24, and I live in Barcelona. I love going to the gym, to have dinner with my friends, and being up-to-date of the news around the developing world.",
+      "summary2": "I have a Computer Engineering Bachelor Degree, specialized in Software Engineering. I enjoy building all kind of applications and discovering new ways to create solutions for all of us.",
+      "summary3": "My goal is to grow as a professional and as a person, and to be able to contribute to the world with my knowledge and my work. I am always open to new opportunities and exciting challenges.",
       "location": {
         "city": "Barcelona",
         "countryCode": "ES",
@@ -27,14 +29,18 @@
         "position": "Software Engineer",
         "startDate": "Dec 2023",
         "endDate": null,
-        "summary": ""
+        "summary1": "Member of a development team in the consultancy, building applications for our clients using the latest technologies and methodologies.",
+        "summary2": "Partaking in frontend and backend development, as well as lending a hand on the architecture and design of the applications.",
+        "summary3": ""
       },
       {
         "name": "ITeC",
         "position": "Full stack developer",
         "startDate": "Jun 2022",
         "endDate": "Dec 2023",
-        "summary": "Worked developing and maintaining the company's application, as well as developing new features and functionalities."
+        "summary1": "Worked developing and maintaining the company's application, as well as developing new features and functionalities.",
+        "summary2": "Worked developing and maintaining the company's application, as well as developing new features and functionalities.",
+        "summary3": "Worked developing and maintaining the company's application, as well as developing new features and functionalities."
       }
     ],
     "education": [{
